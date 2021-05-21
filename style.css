@@ -1,0 +1,84 @@
+:root {
+  --tamnoSiva: #8f8f8f;
+  --padding: 30px;
+}
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&family=Newsreader&family=Recursive:wght@600&family=Roboto:wght@700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Newsreader", serif;
+  text-transform: uppercase;
+}
+.velikaSvetla {
+  font-family: "Recursive", sans-serif;
+  text-transform: uppercase;
+  color: var(--tamnoSiva);
+}
+.velikaTamna {
+  font-family: "Recursive", sans-serif;
+  text-transform: uppercase;
+  color: black;
+}
+.malaSvetla {
+  color: var(--tamnoSiva);
+}
+.container {
+  width: 80%;
+  margin: auto;
+}
+hr {
+  margin-top: 15px;
+}
+/*********
+  header
+*********/
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+nav h3 {
+  padding-top: 20px;
+}
+nav h3 a {
+  text-decoration: none;
+  font-size: 26px;
+}
+nav ul {
+  display: flex;
+  list-style: none;
+  align-items: center;
+}
+nav ul li a {
+  text-decoration: none;
+  font-family: "Cormorant Garamond";
+  color: black;
+  margin-left: 20px;
+  letter-spacing: 1px;
+  font-weight: bolder;
+}
+/************
+ introduction 
+ ***********/
+.introduction {
+  display: flex;
+  margin-top: 40px;
+}
+.introduction img {
+  width: 100%;
+}
+.introduction article:last-child {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-left: 40px;
+  text-align: left;
+}
